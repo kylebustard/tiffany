@@ -4,23 +4,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="Alexandria Tiffany is a trained Texas artist applying draftmanship and portraiture with oils, acrylic paints, pastels, pencil and charcoal. Find out more!">
     <meta name="author" content="">
 
-    <title>Hello Tiffany!</title>
+    <title>Alexandria Tiffany Studio</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <!-- Materialize Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   </head>
 
   <body>
+    <nav class="light-blue">
+      <div class="nav-wrapper container">
+        <a href="/" class="brand-logo">
+          Alexandria Tiffany Studio
+        </a>
+      </div>
+    </nav>
+
     <div class="container">
-      <header class="header">
-        <nav role="navigation">
-          <ul class="nav nav-pills pull-right">
-            <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
-          </ul>
-        </nav>
-        <span class="logo"></span>
-      </header>
 
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
