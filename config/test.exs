@@ -12,8 +12,8 @@ config :logger, level: :warn
 # Configure your database
 config :tiffany, Tiffany.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "kylebustard",
+  password: "",
   database: "tiffany_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
